@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: auto;
+}
+
+body {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  font-family: "Inconsolata", monospace;
+  color: #544b46;
+  background-color: #effcef;
+}
+
+h1 {
+  height: 10vh;
+  padding: 10%;
+}
+
+.drum-buttons {
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1%;
+  width: 40vw;
+  height: 50vh;
+  padding: 8px;
+  background-color: #655c56;
+}
+
+.drum-pad {
+  font-size: 2em;
+  background-color: #94d3ac;
+  border-radius: 5px;
+  display: grid;
+  align-content: center;
+}
+
+footer {
+  padding: 3%;
+  color: #655c56;
+}
